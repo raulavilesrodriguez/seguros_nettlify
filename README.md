@@ -345,6 +345,13 @@ CI='' npm run build
 ```sh
 NODE_VERSION   v14.17.6
 ``` 
+- You can add redirect rules to the _redirects file or to your netlify.toml
+```sh
+[[redirects]]
+from = "/*"
+to = "/index.html"
+status = 200
+``` 
 
 ## Demonstration on youtube
 For the final project of CS50 Web I have made a video showing my project,
